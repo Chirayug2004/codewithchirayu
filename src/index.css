@@ -1,0 +1,66 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=M+PLUS+Rounded+1c&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=M+PLUS+Rounded+1c&family=Oleo+Script:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.cal-sans-regular {
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.m-plus-rounded-1c-regular {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.oleo-script-regular {
+  font-family: "Oleo Script", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.oleo-script-bold {
+  font-family: "Oleo Script", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#herotxt {
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#nametxt {
+ font-family: "Oleo Script", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#servicestxt {
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#cardTxt :hover{
+  background: #000;
+  color: #fff;
+}
+
+#workTxt{
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+#projectTxt{
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}

@@ -15,15 +15,16 @@ const Form = ({formRef, handleSubmit}) => {
       <label className="block text-sm mb-1">Email</label>
       <input
         type="email"
-        name="email"
+        name="user_email"
         placeholder="Enter Your Email"
         className="w-full mb-3 p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-green-700"
       />
 
       <label className="block text-sm mb-1">Message</label>
       <textarea
+        required
         placeholder="Your Message"
-        name="massage"
+        name="message"
         rows="4"
         className="w-full mb-4 p-2 border border-gray-300 rounded resize-none focus:outline-none focus:ring-2 focus:ring-green-700"
       ></textarea>

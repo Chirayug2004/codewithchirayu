@@ -21,6 +21,7 @@ function Contact () {
         () => {
           console.log('SUCCESS!');
           alert('Massage Sent Successfully!');
+          form.current.reset();
         },
         (error) => {
           console.log('FAILED...', error.text);

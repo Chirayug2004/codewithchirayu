@@ -22,10 +22,10 @@ const Footer = () => {
 
           {/* Socials */}
           <div className="flex gap-4 text-lg">
-            <a href="#" className="hover:text-orange-500"><FaInstagram /></a>
+            <a href="https://www.instagram.com/codewithchirayu/" className="hover:text-orange-500"><FaInstagram /></a>
             <a href="#" className="hover:text-orange-500"><FaFacebookF /></a>
-            <a href="#" className="hover:text-orange-500"><FaGithub /></a>
-            <a href="#" className="hover:text-orange-500"><FaLinkedinIn /></a>
+            <a href="https://github.com/Chirayug2004" className="hover:text-orange-500"><FaGithub /></a>
+            <a href="https://www.linkedin.com/in/chirayu-ghai-18977024a/" className="hover:text-orange-500"><FaLinkedinIn /></a>
           </div>
         </div>
 
@@ -33,10 +33,10 @@ const Footer = () => {
         <div className="flex-1">
           <h3 className="text-lg font-semibold text-orange-500 mb-3">Navigation</h3>
           <ul className="space-y-2">
-            <li><a href="#" className="hover:text-orange-500">Home</a></li>
-            <li><a href="#" className="hover:text-orange-500">Services</a></li>
-            <li><a href="#" className="hover:text-orange-500">About</a></li>
-            <li><a href="#" className="hover:text-orange-500">Projects</a></li>
+            <li><a href="#home" className="hover:text-orange-500">Home</a></li>
+            <li><a href="#services" className="hover:text-orange-500">Services</a></li>
+            <li><a href="#about" className="hover:text-orange-500">About</a></li>
+            <li><a href="#projects" className="hover:text-orange-500">Projects</a></li>
           </ul>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import WebDesignPic from "/src/assets/landing-page.png"
 import UXPic from "/src/assets/ux.png"
-import WebDevPic from "/src/assets/Web Logo.png"
+import WebDevPic from "/Web Logo.png"
 import GraphicPic from "/src/assets/graphic-designer.png"
 import VideoPic from "/src/assets/video-editor.png"
 

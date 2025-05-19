@@ -18,7 +18,7 @@ function Navbar() {
         <li><a href="#projects">Project</a></li>
       </ul>
     </div>
-    <img className="h-10" src='src/assets/Web Logo.png'/>
+    <img className="h-10" src='/Web Logo.png'/>
     <a className="text-sm font-bold mx-2 md:text-xl">CodeWithChirayu<span className="text-orange-400 text-2xl font-extrabold">.</span></a>
   </div>
   <div className="navbar-center hidden lg:flex">

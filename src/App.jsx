@@ -15,7 +15,7 @@ function App() {
   return (
     <>
     <Navbar />
-    <div id='home' className='h-screen'>
+    <div id='home' className='h-full'>
       <Home />
       <MovingBar />
     </div>

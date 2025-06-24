@@ -88,9 +88,9 @@ function Services() {
 
     return (
         <>
-            <div className="min-h-screen w-[100%]">
-                <h1 className="text-3xl mt-[15%] mx-[6%]"><span id="servicestxt" className="text-orange-600">Services</span> I Provide</h1>
-                <div className="min-h-screen grid md:grid-cols-3 flex-col gap-5 p-5">
+            <div className="h-full w-[100%]">
+                <h1 className="text-3xl py-16 mx-[6%]"><span id="servicestxt" className="text-orange-600">Services</span> I Provide</h1>
+                <div className="h-full grid md:grid-cols-3 flex-col gap-5 p-5">
                     <WebDesign />
                     <UiUxDesign />
                     <WebDev />

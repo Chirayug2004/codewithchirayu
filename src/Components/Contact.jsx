@@ -54,12 +54,12 @@ function Contact () {
   return (
     <>
     <div className="flex md:flex-row flex-col">
-    <div className="md:min-h-screen min-h-full md:w-[40%] w-[100%]">
+    <div className="md:h-200 min-h-full md:w-[40%] w-[100%]">
         <h1 className="p-5 font-bold"><span className="text-amber-500">-</span> Hire Me</h1>
         <h1 className="p-2 text-4xl">Let's Talk for <span className="text-amber-500">Your Next Projects</span></h1>
         <img className="place-self-center h-30 mt-30" src={contPic} alt="" />
     </div>
-    <div className="md:min-h-screen min-h-full md:w-[60%] w-[100%] flex items-center justify-center">
+    <div className="md:h-200 min-h-full md:w-[60%] w-[100%] flex items-center justify-center">
     <Form formRef={form} handleSubmit={sendEmail} />
     </div>
     </div>

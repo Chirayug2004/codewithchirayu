@@ -8,7 +8,7 @@ import figma from "/src/assets/figma.png";
 function About() {
   return (
    <>
-    <div className="hero bg-green-800 h-full">
+    <div className="hero py-10 bg-green-800 h-full">
   <div className="hero-content flex-col lg:flex-row">
     <img
       src={AdminPic}
@@ -18,7 +18,7 @@ function About() {
         <h1 className="text-white font-medium">About Me</h1>
       <h1 className="text-5xl text-white font-semibold">Who Is <span className="text-amber-500">Chirayu Ghai ?</span></h1>
       <p className="py-8 text-white">
-      I am Doing BCA From Indira Gandhi National Open University (IGNOU) , i Am a freelancer also. What Can I Do For You !!
+      Hi, I’m Chirayu — a passionate Web Developer, Graphic Designer, Video Editor, and UI/UX Designer. With a strong creative vision and technical expertise, I bring ideas to life through clean code, stunning visuals, and intuitive user experiences.
       </p>
       <button className="btn bg-amber-500 hover:bg-green-800 hover:text-white">Download CV </button>
     </div>

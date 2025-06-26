@@ -15,7 +15,7 @@ const Footer = () => {
             <div className="ml-3">
               <p className="font-bold text-1xl">CodeWithChirayu<span className='text-amber-500 text-1xl'>.</span></p>
               <p className="text-sm">
-                I am doing BCA from Indira Gandhi National Open University (IGNOU), I am a frontend dev. What can I do for you?
+                I am doing BCA from Indira Gandhi National Open University (IGNOU), I am a Web dev. What can I do for you?
               </p>
             </div>
           </div>

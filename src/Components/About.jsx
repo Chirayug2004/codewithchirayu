@@ -4,6 +4,8 @@ import css from "/src/assets/css-3.png";
 import js from "/src/assets/js.png";
 import react from "/src/assets/atom.png";
 import figma from "/src/assets/figma.png";
+import Resume from "/public/ChirayuGhai_Resume.pdf"
+
 
 function About() {
   return (
@@ -20,7 +22,9 @@ function About() {
       <p className="py-8 text-white">
       Hi, I’m Chirayu — a passionate Web Developer, Graphic Designer, Video Editor, and UI/UX Designer. With a strong creative vision and technical expertise, I bring ideas to life through clean code, stunning visuals, and intuitive user experiences.
       </p>
-      <button className="btn bg-amber-500 hover:bg-green-800 hover:text-white">Download CV </button>
+      <a href="Resume" download={Resume}>
+      <button download className="btn bg-amber-500 hover:bg-green-800 hover:text-white">Download CV </button>
+      </a>
     </div>
   </div>
 </div>

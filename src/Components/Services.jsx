@@ -90,7 +90,7 @@ function Services() {
         <>
             <div className="h-full w-[100%]">
                 <h1 className="text-3xl py-16 mx-[6%]"><span id="servicestxt" className="text-orange-600">Services</span> I Provide</h1>
-                <div className="h-full grid md:grid-cols-3 flex-col gap-5 p-5">
+                <div className="h-full p-10 2xl:flex 2xl:flex-row 2xl:justify-center 2xl:items-center 2xl:gap-6 grid md:grid-cols-3 flex-col gap-5 p-5">
                     <WebDesign />
                     <UiUxDesign />
                     <WebDev />

@@ -3,86 +3,183 @@ import UXPic from "/src/assets/ux.png"
 import WebDevPic from "/Web Logo.png"
 import GraphicPic from "/src/assets/graphic-designer.png"
 import VideoPic from "/src/assets/video-editor.png"
+import TiltedCard from './TiltedCard';
 
-const WebDesign= () => {
-    return(
+const WebDesign = () => {
+    return (
         <>
-       <div class= "hover:bg-black  hover:text-white max-w-xs p-5 border rounded-xl text-center shadow-sm hover:shadow-lg transition duration-300 bg-gray-100 hover:cursor-pointer" >
-       <div class="flex justify-center mb-4">
-       <img src={WebDesignPic} alt="Web Design Icon" class="w-12 h-12" />
-       </div>
-      <h2 class="text-lg font-semibold mb-2">Web Design</h2>
-      <h2 class="text-sm">
-    Web design is the process of planning and arranging content on a website to create a visually appealing and user-friendly experience.
-    </h2>
-    </div>
-    </>
+            {/* <div class="hover:bg-black  hover:text-white max-w-xs p-5 border rounded-xl text-center shadow-sm hover:shadow-lg transition duration-300 bg-gray-100 hover:cursor-pointer" >
+                <div class="flex justify-center mb-4">
+                    <img src={WebDesignPic} alt="Web Design Icon" class="w-12 h-12" />
+                </div>
+                <h2 class="text-lg font-semibold mb-2">Web Design</h2>
+                <h2 class="text-sm">
+                    Web design is the process of planning and arranging content on a website to create a visually appealing and user-friendly experience.
+                </h2>
+            </div> */}
+            <TiltedCard
+                imageSrc="web-design.png"
+                altText="codewithchirayu - Website Designing"
+                captionText="Website Designing"
+                containerHeight="300px"
+                containerWidth="300px"
+                imageHeight="300px"
+                imageWidth="300px"
+                rotateAmplitude={12}
+                scaleOnHover={1.2}
+                showMobileWarning={false}
+                showTooltip={true}
+                displayOverlayContent={true}
+                // overlayContent={
+                //     <p className="tilted-card-demo-text">
+                //         Website Designing
+                //     </p>
+                // }
+            />
+        </>
     );
- };
+};
 
- const UiUxDesign= () => {
-    return(
+const UiUxDesign = () => {
+    return (
         <>
-       <div class= "hover:bg-black  hover:text-white max-w-xs p-5 border rounded-xl text-center shadow-sm hover:shadow-lg transition duration-300 bg-gray-100 hover:cursor-pointer" >
-       <div class="flex justify-center mb-4">
-       <img src={UXPic} alt="Web Design Icon" class="w-12 h-12" />
-       </div>
-      <h2 class="text-lg font-semibold mb-2">UI/UX Design</h2>
-      <h2 class="text-sm">
-    UI (User Interface) and UX (User Experience) design work together to create user-friendly and engaging digital products.
-    </h2>
-    </div>
-    </>
+            {/* <div class="hover:bg-black  hover:text-white max-w-xs p-5 border rounded-xl text-center shadow-sm hover:shadow-lg transition duration-300 bg-gray-100 hover:cursor-pointer" >
+                <div class="flex justify-center mb-4">
+                    <img src={UXPic} alt="Web Design Icon" class="w-12 h-12" />
+                </div>
+                <h2 class="text-lg font-semibold mb-2">UI/UX Design</h2>
+                <h2 class="text-sm">
+                    UI (User Interface) and UX (User Experience) design work together to create user-friendly and engaging digital products.
+                </h2>
+            </div> */}
+            <TiltedCard
+                imageSrc="ui-ux.png"
+                altText="codewithchirayu - UI UX Designing"
+                captionText="UI UX Designing"
+                containerHeight="300px"
+                containerWidth="300px"
+                imageHeight="300px"
+                imageWidth="300px"
+                rotateAmplitude={12}
+                scaleOnHover={1.2}
+                showMobileWarning={false}
+                showTooltip={true}
+                displayOverlayContent={true}
+                // overlayContent={
+                //     <p className="UI UX Designing">
+                //         UI UX Designing
+                //     </p>
+                // }
+            />
+        </>
     );
- };
+};
 
- const WebDev= () => {
-    return(
+const WebDev = () => {
+    return (
         <>
-       <div class= "hover:bg-black  hover:text-white max-w-xs p-5 border rounded-xl text-center shadow-sm hover:shadow-lg transition duration-300 bg-gray-100 hover:cursor-pointer" >
-       <div class="flex justify-center mb-4">
-       <img src={WebDevPic} alt="Web Design Icon" class="w-12 h-12" />
-       </div>
-      <h2 class="text-lg font-semibold mb-2">Web Development</h2>
-      <h2 class="text-sm">
-    Web development is the process of creating, building, and maintaining websites and web applications.
-    </h2>
-    </div>
-    </>
+            {/* <div class="hover:bg-black  hover:text-white max-w-xs p-5 border rounded-xl text-center shadow-sm hover:shadow-lg transition duration-300 bg-gray-100 hover:cursor-pointer" >
+                <div class="flex justify-center mb-4">
+                    <img src={WebDevPic} alt="Web Design Icon" class="w-12 h-12" />
+                </div>
+                <h2 class="text-lg font-semibold mb-2">Web Development</h2>
+                <h2 class="text-sm">
+                    Web development is the process of creating, building, and maintaining websites and web applications.
+                </h2>
+            </div> */}
+            <TiltedCard
+                imageSrc="social-media.png"
+                altText="codewithchirayu - Social Media Handling"
+                captionText="Social Media Handling"
+                containerHeight="300px"
+                containerWidth="300px"
+                imageHeight="300px"
+                imageWidth="300px"
+                rotateAmplitude={12}
+                scaleOnHover={1.2}
+                showMobileWarning={false}
+                showTooltip={true}
+                displayOverlayContent={true}
+                // overlayContent={
+                //     <p className="tilted-card-demo-text">
+                //        Social Media Handling
+                //     </p>
+                // }
+            />
+        </>
     );
- };
+};
 
- const GraphicDesign= () => {
-    return(
+const GraphicDesign = () => {
+    return (
         <>
-       <div class= "hover:bg-black  hover:text-white max-w-xs p-5 border rounded-xl text-center shadow-sm hover:shadow-lg transition duration-300 bg-gray-100 hover:cursor-pointer" >
-       <div class="flex justify-center mb-4">
-       <img src={GraphicPic} alt="Web Design Icon" class="w-12 h-12" />
-       </div>
-      <h2 class="text-lg font-semibold mb-2">Graphic Design</h2>
-      <h2 class="text-sm">
-    Graphic design is the art and practice of combining visual elements like typography, images, colors, and shapes to create visual content.
-    </h2>
-    </div>
-    </>
+            {/* <div class="hover:bg-black  hover:text-white max-w-xs p-5 border rounded-xl text-center shadow-sm hover:shadow-lg transition duration-300 bg-gray-100 hover:cursor-pointer" >
+                <div class="flex justify-center mb-4">
+                    <img src={GraphicPic} alt="Web Design Icon" class="w-12 h-12" />
+                </div>
+                <h2 class="text-lg font-semibold mb-2">Graphic Design</h2>
+                <h2 class="text-sm">
+                    Graphic design is the art and practice of combining visual elements like typography, images, colors, and shapes to create visual content.
+                </h2>
+            </div> */}
+            <TiltedCard
+                imageSrc="graphic-design.png"
+                altText="codewithchirayu - Graphic Designing"
+                captionText="Graphic Designing"
+                containerHeight="300px"
+                containerWidth="300px"
+                imageHeight="300px"
+                imageWidth="300px"
+                rotateAmplitude={12}
+                scaleOnHover={1.2}
+                showMobileWarning={false}
+                showTooltip={true}
+                displayOverlayContent={true}
+                // overlayContent={
+                //     <p className="tilted-card-demo-text">
+                //         Graphic Designing
+                //     </p>
+                // }
+            />
+        </>
     );
- };
+};
 
- const VideoEditing= () => {
-    return(
+const VideoEditing = () => {
+    return (
         <>
-       <div class= "hover:bg-black  hover:text-white max-w-xs p-5 border rounded-xl text-center shadow-sm hover:shadow-lg transition duration-300 bg-gray-100 hover:cursor-pointer" >
-       <div class="flex justify-center mb-4">
-       <img src={VideoPic} alt="Web Design Icon" class="w-12 h-12" />
-       </div>
-      <h2 class="text-lg font-semibold mb-2">Video Editing</h2>
-      <h2 class="text-sm">
-    Video editing is the process of manipulating and arranging video footage to create a finished product, often by combining clips, adding effects, and incorporating audio.
-    </h2>
-    </div>
-    </>
+            {/* <div class="hover:bg-black  hover:text-white max-w-xs p-5 border rounded-xl text-center shadow-sm hover:shadow-lg transition duration-300 bg-gray-100 hover:cursor-pointer" >
+                <div class="flex justify-center mb-4">
+                    <img src={VideoPic} alt="Web Design Icon" class="w-12 h-12" />
+                </div>
+                <h2 class="text-lg font-semibold mb-2">Video Editing</h2>
+                <h2 class="text-sm">
+                    Video editing is the process of manipulating and arranging video footage to create a finished product, often by combining clips, adding effects, and incorporating audio.
+                </h2>
+            </div> */}
+            <TiltedCard
+                imageSrc="vd-editing.png"
+                altText="codewithchirayu - Video Editing"
+                captionText="Video Editing"
+                containerHeight="300px"
+                containerWidth="300px"
+                imageHeight="300px"
+                imageWidth="300px"
+                rotateAmplitude={12}
+                scaleOnHover={1.2}
+                showMobileWarning={false}
+                showTooltip={true}
+                displayOverlayContent={true}
+                // overlayContent={
+                //     <p className="tilted-card-demo-text">
+                //         Video Editing
+                //     </p>
+                // }
+            />
+        </>
     );
- };
+};
+
 
 function Services() {
 
@@ -90,15 +187,15 @@ function Services() {
         <>
             <div className="h-full w-[100%]">
                 <h1 className="text-3xl py-16 mx-[6%]"><span id="servicestxt" className="text-orange-600">Services</span> I Provide</h1>
-                <div className="h-full p-10 2xl:flex 2xl:flex-row 2xl:justify-center 2xl:items-center 2xl:gap-6 grid md:grid-cols-3 flex-col gap-5 p-5">
+                <div className="h-full p-10 2xl:flex 2xl:flex-row 2xl:justify-center 2xl:items-center 2xl:gap-12 grid md:grid-cols-3 flex-col gap-5 p-5">
                     <WebDesign />
                     <UiUxDesign />
-                    <WebDev />
                     <GraphicDesign />
-                    <VideoEditing />
+                    <WebDev />
+                    <VideoEditing /> 
                 </div>
             </div>
-        </> 
+        </>
     )
 }
 

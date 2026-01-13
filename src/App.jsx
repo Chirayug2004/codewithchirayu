@@ -11,28 +11,29 @@ import Contact from './Components/Contact'
 import Footer from './Components/Footer'
 
 
+
 function App() {
   return (
     <>
-    <Navbar />
-    <div id='home' className='h-full'>
-      <Home />
-      <MovingBar />
-    </div>
-    <div id='services'>
-      <Services />
-    </div>
-    <div id='about'>
-      <About />
-    </div>
-    <div id='projects'>
-      <Projects />
-    </div>
-    <div id='contact'>
-      <MovingBar />
-      <Contact />
-      <MovingBar />
-    </div>
+      <Navbar />
+      <div id='home' className='h-full'>
+        <Home />
+        <MovingBar />
+      </div>
+      <div id='services'>
+        <Services />
+      </div>
+      <div id='about'>
+        <About />
+      </div>
+      <div id='projects'>
+        <Projects />
+      </div>
+      <div id='contact' className='pt-5'>
+        {/* <MovingBar /> */}
+        <Contact />
+        <MovingBar />
+      </div>
       <Footer />
     </>
   )

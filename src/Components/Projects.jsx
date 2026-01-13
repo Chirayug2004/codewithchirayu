@@ -124,105 +124,223 @@ function Projects() {
         <div className="md:hidden">
           <Slider {...SmSettings} className="overflow-hidden px-5">
             <div>
-              <iframe
-                src="https://www.youtube.com/embed/qGzl0ktufhM?autoplay=1&mute=1&loop=1&playlist=qGzl0ktufhM&controls=0&modestbranding=1"
+              <video
+                src="https://res.cloudinary.com/dv81yfnes/video/upload/v1768318343/1_vyxffl.mp4"
                 width="400"
-                height="700"
-                title="YouTube Shorts"
-                allow="autoplay; encrypted-media"
-                allowFullScreen
-                className="rounded-lg"
+                className="rounded-xl"
+                autoPlay
+                muted
+                loop
+                playsInline
               />
             </div>
 
             <div>
-              <iframe
-                src="https://www.youtube.com/embed/0W75hirLw1U?autoplay=1&mute=1&loop=1&playlist=0W75hirLw1U&controls=0&modestbranding=1"
+              <video
+                src="https://res.cloudinary.com/dv81yfnes/video/upload/v1768318504/6_n97emu.mp4"
                 width="400"
-                height="700"
-                title="YouTube Shorts"
-                allow="autoplay; encrypted-media"
-                allowFullScreen
-                className="rounded-lg"
+                className="rounded-xl"
+                autoPlay
+                muted
+                loop
+                playsInline
               />
             </div>
 
             <div>
-              <iframe
-                src="https://www.youtube.com/embed/WtYcCE4ad0k?autoplay=1&mute=1&loop=1&playlist=WtYcCE4ad0k&controls=0&modestbranding=1"
+              <video
+                src="https://res.cloudinary.com/dv81yfnes/video/upload/v1768318514/4_mccsot.mp4"
                 width="400"
-                height="700"
-                title="YouTube Shorts"
-                allow="autoplay; encrypted-media"
-                allowFullScreen
-                className="rounded-lg"
+                className="rounded-xl"
+                autoPlay
+                muted
+                loop
+                playsInline
               />
             </div>
 
             <div>
-              <iframe
-                src="https://www.youtube.com/embed/E2xDkdmvo9E?autoplay=1&mute=1&loop=1&playlist=E2xDkdmvo9E&controls=0&modestbranding=1"
+              <video
+                src="https://res.cloudinary.com/dv81yfnes/video/upload/v1768318747/2_pjfzjg.mp4"
                 width="400"
-                height="700"
-                title="YouTube Shorts"
-                allow="autoplay; encrypted-media"
-                allowFullScreen
-                className="rounded-lg"
+                className="rounded-xl"
+                autoPlay
+                muted
+                loop
+                playsInline
               />
             </div>
 
+            <div>
+              <video
+                src="https://res.cloudinary.com/dv81yfnes/video/upload/v1768318759/9_yuci7q.mp4"
+                width="400"
+                className="rounded-xl"
+                autoPlay
+                muted
+                loop
+                playsInline
+              />
+            </div>
+
+            <div>
+              <video
+                src="https://res.cloudinary.com/dv81yfnes/video/upload/v1768318854/7_so7zgx.mp4"
+                width="400"
+                className="rounded-xl"
+                autoPlay
+                muted
+                loop
+                playsInline
+              />
+            </div>
+
+            <div>
+              <video
+                src="https://res.cloudinary.com/dv81yfnes/video/upload/v1768318943/8_uhfet5.mp4"
+                width="400"
+                className="rounded-xl"
+                autoPlay
+                muted
+                loop
+                playsInline
+              />
+            </div>
+
+            <div>
+              <video
+                src="https://res.cloudinary.com/dv81yfnes/video/upload/v1768319032/5_dxqdhn.mp4"
+                width="400"
+                className="rounded-xl"
+                autoPlay
+                muted
+                loop
+                playsInline
+              />
+            </div>
+
+            <div>
+              <video
+                src="https://res.cloudinary.com/dv81yfnes/video/upload/v1768319164/3_thqbov.mp4"
+                width="400"
+                className="rounded-xl"
+                autoPlay
+                muted
+                loop
+                playsInline
+              />
+            </div>
           </Slider>
         </div>
         <div className="hidden md:block">
           <Slider {...settings} className="overflow-hidden px-5">
-            <div>
-              <iframe
-                src="https://www.youtube.com/embed/qGzl0ktufhM?autoplay=1&mute=1&loop=1&playlist=qGzl0ktufhM&controls=0&modestbranding=1"
+                     <div>
+              <video
+                src="https://res.cloudinary.com/dv81yfnes/video/upload/v1768318343/1_vyxffl.mp4"
                 width="400"
-                height="700"
-                title="YouTube Shorts"
-                allow="autoplay; encrypted-media"
-                allowFullScreen
-                className="rounded-lg"
+                className="rounded-xl"
+                autoPlay
+                muted
+                loop
+                playsInline
               />
             </div>
 
             <div>
-              <iframe
-                src="https://www.youtube.com/embed/0W75hirLw1U?autoplay=1&mute=1&loop=1&playlist=0W75hirLw1U&controls=0&modestbranding=1"
+              <video
+                src="https://res.cloudinary.com/dv81yfnes/video/upload/v1768318504/6_n97emu.mp4"
                 width="400"
-                height="700"
-                title="YouTube Shorts"
-                allow="autoplay; encrypted-media"
-                allowFullScreen
-                className="rounded-lg"
+                className="rounded-xl"
+                autoPlay
+                muted
+                loop
+                playsInline
               />
             </div>
 
             <div>
-              <iframe
-                src="https://www.youtube.com/embed/WtYcCE4ad0k?autoplay=1&mute=1&loop=1&playlist=WtYcCE4ad0k&controls=0&modestbranding=1"
+              <video
+                src="https://res.cloudinary.com/dv81yfnes/video/upload/v1768318514/4_mccsot.mp4"
                 width="400"
-                height="700"
-                title="YouTube Shorts"
-                allow="autoplay; encrypted-media"
-                allowFullScreen
-                className="rounded-lg"
+                className="rounded-xl"
+                autoPlay
+                muted
+                loop
+                playsInline
               />
             </div>
 
             <div>
-              <iframe
-                src="https://www.youtube.com/embed/E2xDkdmvo9E?autoplay=1&mute=1&loop=1&playlist=E2xDkdmvo9E&controls=0&modestbranding=1"
+              <video
+                src="https://res.cloudinary.com/dv81yfnes/video/upload/v1768318747/2_pjfzjg.mp4"
                 width="400"
-                height="700"
-                title="YouTube Shorts"
-                allow="autoplay; encrypted-media"
-                allowFullScreen
-                className="rounded-lg"
+                className="rounded-xl"
+                autoPlay
+                muted
+                loop
+                playsInline
               />
             </div>
 
+            <div>
+              <video
+                src="https://res.cloudinary.com/dv81yfnes/video/upload/v1768318759/9_yuci7q.mp4"
+                width="400"
+                className="rounded-xl"
+                autoPlay
+                muted
+                loop
+                playsInline
+              />
+            </div>
+
+            <div>
+              <video
+                src="https://res.cloudinary.com/dv81yfnes/video/upload/v1768318854/7_so7zgx.mp4"
+                width="400"
+                className="rounded-xl"
+                autoPlay
+                muted
+                loop
+                playsInline
+              />
+            </div>
+
+            <div>
+              <video
+                src="https://res.cloudinary.com/dv81yfnes/video/upload/v1768318943/8_uhfet5.mp4"
+                width="400"
+                className="rounded-xl"
+                autoPlay
+                muted
+                loop
+                playsInline
+              />
+            </div>
+
+            <div>
+              <video
+                src="https://res.cloudinary.com/dv81yfnes/video/upload/v1768319032/5_dxqdhn.mp4"
+                width="400"
+                className="rounded-xl"
+                autoPlay
+                muted
+                loop
+                playsInline
+              />
+            </div>
+
+            <div>
+              <video
+                src="https://res.cloudinary.com/dv81yfnes/video/upload/v1768319164/3_thqbov.mp4"
+                width="400"
+                className="rounded-xl"
+                autoPlay
+                muted
+                loop
+                playsInline
+              />
+            </div>
           </Slider>
         </div>
         <CurvedLoop

@@ -28,9 +28,9 @@ function Projects() {
       <div className="h-full w-[100%]  pb-5">
         <h1 id="projectsTxt" className="text-2xl p-16 mx-3">My Latest <span className="text-orange-500">Projects</span></h1>
 
-        <div className="container-2xl p-5 place-items-center grid grid-cols-1 md:grid-cols-4 gap-5">
+        <div className="container-2xl p-5 place-items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-5">
 
-          <div className="card bg-base-100 w-65 md:w-96 shadow-sm text-center">
+          <div className="card bg-base-100 w-65 md:w-70 lg:w-80 shadow-sm text-center">
             <figure>
               <a href="http://mypurepantry.com/">
                 <img
@@ -51,7 +51,7 @@ function Projects() {
             </div>
           </div>
 
-          <div className="card bg-base-100 w-65 md:w-96 shadow-sm">
+          <div className="card bg-base-100 w-65 md:w-70 lg:w-80 shadow-sm">
             <figure>
               <a href="https://www.honestjaggery.com/">
                 <img
@@ -72,7 +72,7 @@ function Projects() {
             </div>
           </div>
 
-          <div className="card bg-base-100 w-65 md:w-96 shadow-sm">
+          <div className="card bg-base-100 w-65 md:w-70 lg:w-80 shadow-sm">
             <figure>
               <a href="https://citidentalhospital.com/">
                 <img
@@ -93,7 +93,7 @@ function Projects() {
             </div>
           </div>
 
-          <div className="card bg-base-100  w-65 md:w-96 shadow-sm">
+          <div className="card bg-base-100  w-65 md:w-70 lg:w-80 shadow-sm">
             <figure>
               <a href="https://b2bpunjab.com/jassal/index.php">
                 <img
@@ -126,8 +126,8 @@ function Projects() {
             <div>
               <video
                 src="https://res.cloudinary.com/dv81yfnes/video/upload/v1768318343/1_vyxffl.mp4"
-                width="400"
-                className="rounded-xl"
+                // width="400"
+                className="rounded-xl w-100"
                 autoPlay
                 muted
                 loop
@@ -138,8 +138,8 @@ function Projects() {
             <div>
               <video
                 src="https://res.cloudinary.com/dv81yfnes/video/upload/v1768318504/6_n97emu.mp4"
-                width="400"
-                className="rounded-xl"
+                // width="400"
+                className="rounded-xl w-100"
                 autoPlay
                 muted
                 loop
@@ -150,8 +150,8 @@ function Projects() {
             <div>
               <video
                 src="https://res.cloudinary.com/dv81yfnes/video/upload/v1768318514/4_mccsot.mp4"
-                width="400"
-                className="rounded-xl"
+                // width="400"
+                className="rounded-xl w-100"
                 autoPlay
                 muted
                 loop
@@ -162,8 +162,8 @@ function Projects() {
             <div>
               <video
                 src="https://res.cloudinary.com/dv81yfnes/video/upload/v1768318747/2_pjfzjg.mp4"
-                width="400"
-                className="rounded-xl"
+                // width="400"
+                className="rounded-xl w-100"
                 autoPlay
                 muted
                 loop
@@ -174,8 +174,8 @@ function Projects() {
             <div>
               <video
                 src="https://res.cloudinary.com/dv81yfnes/video/upload/v1768318759/9_yuci7q.mp4"
-                width="400"
-                className="rounded-xl"
+                // width="400"
+                className="rounded-xl w-100"
                 autoPlay
                 muted
                 loop
@@ -186,8 +186,8 @@ function Projects() {
             <div>
               <video
                 src="https://res.cloudinary.com/dv81yfnes/video/upload/v1768318854/7_so7zgx.mp4"
-                width="400"
-                className="rounded-xl"
+                // width="400"
+                className="rounded-xl w-100"
                 autoPlay
                 muted
                 loop
@@ -198,8 +198,8 @@ function Projects() {
             <div>
               <video
                 src="https://res.cloudinary.com/dv81yfnes/video/upload/v1768318943/8_uhfet5.mp4"
-                width="400"
-                className="rounded-xl"
+                // width="400"
+                className="rounded-xl w-100"
                 autoPlay
                 muted
                 loop
@@ -210,8 +210,8 @@ function Projects() {
             <div>
               <video
                 src="https://res.cloudinary.com/dv81yfnes/video/upload/v1768319032/5_dxqdhn.mp4"
-                width="400"
-                className="rounded-xl"
+                // width="400"
+                className="rounded-xl w-100"
                 autoPlay
                 muted
                 loop
@@ -222,8 +222,8 @@ function Projects() {
             <div>
               <video
                 src="https://res.cloudinary.com/dv81yfnes/video/upload/v1768319164/3_thqbov.mp4"
-                width="400"
-                className="rounded-xl"
+                // width="400"
+                className="rounded-xl w-100"
                 autoPlay
                 muted
                 loop
@@ -237,8 +237,8 @@ function Projects() {
                      <div>
               <video
                 src="https://res.cloudinary.com/dv81yfnes/video/upload/v1768318343/1_vyxffl.mp4"
-                width="400"
-                className="rounded-xl"
+                // width="400"
+                className="rounded-xl w-100"
                 autoPlay
                 muted
                 loop
@@ -249,8 +249,8 @@ function Projects() {
             <div>
               <video
                 src="https://res.cloudinary.com/dv81yfnes/video/upload/v1768318504/6_n97emu.mp4"
-                width="400"
-                className="rounded-xl"
+                // width="400"
+                className="rounded-xl w-100"
                 autoPlay
                 muted
                 loop
@@ -261,8 +261,8 @@ function Projects() {
             <div>
               <video
                 src="https://res.cloudinary.com/dv81yfnes/video/upload/v1768318514/4_mccsot.mp4"
-                width="400"
-                className="rounded-xl"
+                // width="400"
+                className="rounded-xl w-100"
                 autoPlay
                 muted
                 loop
@@ -273,8 +273,8 @@ function Projects() {
             <div>
               <video
                 src="https://res.cloudinary.com/dv81yfnes/video/upload/v1768318747/2_pjfzjg.mp4"
-                width="400"
-                className="rounded-xl"
+                // width="400"
+                className="rounded-xl w-100"
                 autoPlay
                 muted
                 loop
@@ -285,8 +285,8 @@ function Projects() {
             <div>
               <video
                 src="https://res.cloudinary.com/dv81yfnes/video/upload/v1768318759/9_yuci7q.mp4"
-                width="400"
-                className="rounded-xl"
+                // width="400"
+                className="rounded-xl w-100"
                 autoPlay
                 muted
                 loop
@@ -297,8 +297,8 @@ function Projects() {
             <div>
               <video
                 src="https://res.cloudinary.com/dv81yfnes/video/upload/v1768318854/7_so7zgx.mp4"
-                width="400"
-                className="rounded-xl"
+                // width="400"
+                className="rounded-xl w-100"
                 autoPlay
                 muted
                 loop
@@ -309,20 +309,20 @@ function Projects() {
             <div>
               <video
                 src="https://res.cloudinary.com/dv81yfnes/video/upload/v1768318943/8_uhfet5.mp4"
-                width="400"
-                className="rounded-xl"
+                // width="400"
+                className="rounded-xl w-100"
                 autoPlay
                 muted
                 loop
                 playsInline
-              />
+              /> 
             </div>
 
             <div>
               <video
                 src="https://res.cloudinary.com/dv81yfnes/video/upload/v1768319032/5_dxqdhn.mp4"
-                width="400"
-                className="rounded-xl"
+                // width="400"
+                className="rounded-xl w-100"
                 autoPlay
                 muted
                 loop
@@ -333,8 +333,20 @@ function Projects() {
             <div>
               <video
                 src="https://res.cloudinary.com/dv81yfnes/video/upload/v1768319164/3_thqbov.mp4"
-                width="400"
-                className="rounded-xl"
+                // width="400"
+                className="rounded-xl w-100"
+                autoPlay
+                muted
+                loop
+                playsInline
+              />
+            </div>
+
+             <div>
+              <video
+                src="https://res.cloudinary.com/dv81yfnes/video/upload/v1770554939/reel-1_Final_tqxgq4.mp4"
+                // width="400"
+                className="rounded-xl w-100"
                 autoPlay
                 muted
                 loop

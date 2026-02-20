@@ -10,6 +10,10 @@ import { CometCard } from "../Components/ui/comet-card";
 import FallingText from '../component/FallingText';
 import { Button } from "../Components/ui/stateful-button";
 import LogoLoop from '../component/LogoLoop';
+import VariableProximity from '../component/VariableProximity';
+import { useRef, forwardRef, containerRef} from 'react';
+
+
 import {
   SiReact,
   SiTailwindcss,
@@ -129,7 +133,7 @@ function About() {
 
           {/* RIGHT SIDE - TEXT */}
           <div className="max-w-2xl justify-center">
-            <FallingText
+            {/* <FallingText
               text={`Hi, I’m Chirayu — a passionate Web Developer, Graphic Designer, Video Editor, and UI/UX Designer. With a strong creative vision and technical expertise, I bring ideas to life through clean code, stunning visuals, and intuitive user experiences.`}
               highlightWords={[
                 "Chirayu",
@@ -142,7 +146,21 @@ function About() {
               gravity={0.5}
               fontSize="1.5rem"
               mouseConstraintStiffness={0.8}
-            />
+            /> */}
+            <div
+              ref={containerRef}
+              style={{ position: 'relative' }}
+            >
+              <VariableProximity
+                label={'Hi, I’m Chirayu — a passionate Web Developer, Graphic Designer, Video Editor, and UI/UX Designer. With a strong creative vision and technical expertise, I bring ideas to life through clean code, stunning visuals, and intuitive user experiences.'}
+                className={'variable-proximity-demo'}
+                fromFontVariationSettings="'wght' 400, 'opsz' 9"
+                toFontVariationSettings="'wght' 1000, 'opsz' 40"
+                containerRef={containerRef}
+                radius={100}
+                falloff='linear'
+              />
+            </div>
 
             <StatefulButtonDemo />
           </div>

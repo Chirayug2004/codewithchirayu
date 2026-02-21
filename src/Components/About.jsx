@@ -10,8 +10,7 @@ import { CometCard } from "../Components/ui/comet-card";
 import FallingText from '../component/FallingText';
 import { Button } from "../Components/ui/stateful-button";
 import LogoLoop from '../component/LogoLoop';
-// import VariableProximity from '../component/VariableProximity';
-// import { useRef, forwardRef, containerRef } from 'react';
+
 
 
 import {
@@ -240,3 +239,4 @@ function About() {
 
 
 export default About
+

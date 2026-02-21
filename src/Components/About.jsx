@@ -7,7 +7,6 @@ import figma from "/src/assets/figma.png";
 import Resume from "/Resume.pdf"
 import ProfileCard from '../component/ProfileCard'
 import { CometCard } from "../Components/ui/comet-card";
-import FallingText from '../component/FallingText';
 import { Button } from "../Components/ui/stateful-button";
 import LogoLoop from '../component/LogoLoop';
 
@@ -210,5 +209,6 @@ function About() {
 
 
 export default About
+
 
 

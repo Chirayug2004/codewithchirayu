@@ -16,6 +16,7 @@ function Navbar() {
         <li><a href="#services">Services</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Project</a></li>
+        <li className="bg-white text-amber-700 text-xl rounded"><a href="https://chirayugraphics.my.canva.site/">EditFolio</a></li>
       </ul>
     </div>
     <img className="h-10" src='/Web Logo.png'/>
@@ -27,6 +28,7 @@ function Navbar() {
       <li className="hover:text-1xl hover:underline-offset-8 hover:underline hover:underline-white"><a href="#services">Services</a></li>
       <li className="hover:text-1xl hover:underline-offset-8 hover:underline hover:underline-white"><a href="#about">About</a></li>
       <li className="hover:text-1xl hover:underline-offset-8 hover:underline hover:underline-white"><a href="#projects">Project</a></li>
+      <li className="bg-white text-amber-700 text-xl rounded"><a href="https://chirayugraphics.my.canva.site/">EditFolio</a></li>
     </ul>
   </div>
   <div className="navbar-end">
@@ -39,3 +41,4 @@ function Navbar() {
 }
 
 export default Navbar
+
